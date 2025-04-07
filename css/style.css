@@ -322,7 +322,7 @@ button {
 }
 
 .icon_1{
-    width: 60%;
+    width: 80%;
     float: left;
     text-align: center;
 }
@@ -958,6 +958,21 @@ textarea#comment::placeholder {
     color: #989696;
     background-color: #ffffff;
 }
+.form-submit {
+    background-color: black;
+    color: grey;
+    font-size: 22px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: white;
+}
+
 .image_9 {
     float: left;
     padding-top: 83px;

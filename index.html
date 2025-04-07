@@ -103,35 +103,37 @@
       <div class="services_section layout_padding">
          <div class="container">
             <h1 class="services_taital">our services</h1>
-            <p class="many_taital">There are many variations of passages of Lorem Ipsum </p>
+            <p class="many_taital">BJ Mhlongo Attorneys Inc. — sharp, reliable legal solutions you can trust. </p>
             <div class="services_section2 layout_padding">
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
-                     <div class="icon_1"><img src="images/budget.png"></div>
+                     <div class="icon_1"><img src="images/insurance.jpg"></div>
                      <h2 class="furnitures_text">INSURANCE</h2>
-                     <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
+                     <p class="dummy_text">ndemnity and Fidelity Funds with annual limits of R1.56M and R5M respectively.
+
+                     </p>
                      <div class="read_bt_main">
                         <div class="read_bt"><a href="services.html">Read More</a></div>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <div class="icon_1"><img src="images/lawyer.png"></div>
+                     <div class="icon_1"><img src="images/litigation.jpg"></div>
                      <h2 class="furnitures_text">Litigation</h2>
-                     <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
+                     <p class="dummy_text">Civil and fiduciary litigation in both the Magistrate’s and High Courts.</p>
                      <div class="read_bt_main">
                         <div class="read_bt"><a href="services.html">Read More</a></div>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <div class="icon_1"><img src="images/workspace.png"></div>
-                     <h2 class="furnitures_text">Commercial.</h2>
-                     <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
+                     <div class="icon_1"><img src="images/commericial.jpg"></div>
+                     <h2 class="furnitures_text">Commercial</h2>
+                     <p class="dummy_text">Drafting and reviewing of contracts and business agreements.</p>
                      <div class="read_bt_main">
                         <div class="read_bt"><a href="services.html">Read More</a></div>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <div class="icon_1"><img src="images/cooperation (1).png"></div>
+                     <div class="icon_1"><img src="images/admistration.jpg"></div>
                      <h2 class="furnitures_text">Administration</h2>
                      <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
                      <div class="read_bt_main">
@@ -337,16 +339,21 @@
             <div class="row">
                <div class="col-md-6">
                   <h1 class="contact_text">CONTACT US</h1>
-                  <div class="mail_sectin">
-                     <input type="text" class="email-bt" placeholder="Name" name="Name">
-                     <input type="text" class="email-bt" placeholder="Email" name="Name">
-                     <input type="text" class="email-bt" placeholder="Phone Number" name="Name">
-                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                     <div class="send_bt"><a href="#">SEND</a></div>
-                  </div>
+                  <form action="https://api.web3forms.com/submit" method="POST">
+                     <input type="hidden" name="access_key" value="c042921c-6c93-4ae9-a6eb-25faec469fa3">
+                     <div class="mail_sectin">
+                        <input type="text" class="email-bt" placeholder="Name" name="Name" required>
+                        <input type="email" class="email-bt" placeholder="Email" name="email" required>
+                        <input type="tel" class="email-bt" placeholder="Phone Number" name="phone">
+                        <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message" required></textarea>
+                        <div class="send_bt">
+                           <button type="submit" class="form-submit">SEND</button>
+                        </div>
+                     </div>
+                  </form>
                </div>
                <div class="col-md-6">
-                  <div class="image_9"><img src="images/contact-us.jpg"></div>
+                  <div class="image_9"><img src="images/contact-us.jpg" alt="Contact Us"></div>
                </div>
             </div>
          </div>
