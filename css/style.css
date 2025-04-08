@@ -235,7 +235,7 @@ button {
 }
 .logo {
     width: 20%;
-    float: left;
+    float: right;
 }
 .navbar-light .navbar-nav .nav-link {
     color:rgb(252, 241, 241);
@@ -275,7 +275,7 @@ button {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 300px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .nav-item {
