@@ -221,61 +221,79 @@ button {
 .padding_0{
      padding: 0px;
 }
-
-.header_section{
+.header_section {
     width: 100%;
-    float:right;
+    float: right;
     height: auto;
     background-size: 100%;
-    background-color:#001f53;
-    margin-left:30px;
+    background-color: #001f53;
+    margin-left: 30px;
 }
+
 .bg-light {
     background-color: transparent !important;
 }
+
 .logo {
     width: 20%;
     float: right;
 }
+
+.navbar-light .navbar-nav {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-grow: 1; /* Allow the navbar to grow and take available space */
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color:rgb(252, 241, 241);
+    color: rgb(252, 241, 241);
     font-size: 18px;
     text-transform: uppercase;
+    padding: 0 15px; /* Adjusted padding for closer links */
+    margin-right: 30px; /* Gap of 30px between links */
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color:rgb(5, 107, 166);
+
+.navbar-light .navbar-nav .nav-link:last-child {
+    margin-right: 0; /* Remove margin from the last link */
 }
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(5, 107, 166);
+}
+
 .call_text {
     width: 100%;
     float: left;
     font-size: 18px;
-    color:#001f53;
+    color: #001f53;
     padding-top: 10px;
 }
 
-.search_icon{
+.search_icon {
     width: 12%;
     float: left;
 }
-.search_icon ul{
+
+.search_icon ul {
     margin: 0px;
     padding: 0px;
 }
+
 .search_icon li {
     float: left;
     padding-left: 20px;
     font-size: 18px;
     color: #000;
 }
-.search_icon li a{
+
+.search_icon li a {
     color: #000;
 }
-.search_icon li a:hover{
-    color:#001f53;
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 300px;
-    padding-left: 10px;
+
+.search_icon li a:hover {
+    color: #001f53;
 }
 
 .nav-item {
@@ -292,12 +310,14 @@ button {
     width: 25%;
     float: left;
 }
+
+
 .banner_section {
     position: relative;
     width: 100%;
     float: left;
     background-image: url(../images/picture1.jpg);
-    height: 90%;
+    height: 70%;
     padding-bottom: 50px;
     background-size: 100%;
     background-repeat: no-repeat;
